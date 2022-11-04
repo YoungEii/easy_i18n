@@ -1,6 +1,13 @@
 # easy_i18n
 
 使用 `easy_localization` 套件實作 Flutter i18n，其中 `easy_localization_generator` 套件負責取得Google sheet並生成字串檔與翻譯檔，接著透過 `easy_localization_loader` 套件存取翻譯檔，最後就能依據設置地區顯示對應語言字串
+
+## Demo
+![Google Sheet](demo/google_sheet.png)
+![csv](demo/csv.png)
+![entry class](demo/entry.png)
+![generated code](demo/gen_code.png)
+
 ## Package
 - easy_localization
 - easy_localization_loader
